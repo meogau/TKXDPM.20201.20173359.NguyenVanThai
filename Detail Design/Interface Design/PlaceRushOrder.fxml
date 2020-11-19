@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="44.0" prefHeight="347.0" prefWidth="459.0" style="-fx-border-color: #A4A4A4;">
+         <children>
+            <Pane layoutX="-1.0" prefHeight="118.0" prefWidth="460.0">
+               <children>
+                  <ImageView fitHeight="76.0" fitWidth="59.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/9781787051867_p0_v2_s550x406.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="76.0" layoutY="25.0" prefHeight="17.0" prefWidth="98.0" text="SHERLOCK Book 1">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="76.0" layoutY="47.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="14.0" prefWidth="59.0" style="-fx-border-color: #2ECCFA;" text="delete" textFill="#010e17">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Button>
+                  <Text fill="#1530c9" layoutX="344.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: solid;" text="200.000 đ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#1f81c3" layoutX="374.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VND">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="403.0" layoutY="33.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="15.0" prefWidth="52.0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="-3.0" layoutY="-1.0" prefHeight="38.0" prefWidth="603.0">
+         <children>
+            <ImageView fitHeight="39.0" fitWidth="85.0" layoutX="18.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/AIMS-LOGO-big.png" />
+               </image>
+            </ImageView>
+            <Text fill="#3899cd" layoutX="108.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CART" wrappingWidth="29.3193359375">
+               <font>
+                  <Font name="Agency FB" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="460.0" layoutY="43.0" prefHeight="236.0" prefWidth="141.0">
+         <children>
+            <Text layoutX="7.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal :" wrappingWidth="45.546875">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Text>
+            <Text fill="#1f6390" layoutX="52.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200.000 d">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Text>
+            <Text layoutX="7.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount:" wrappingWidth="45.546875">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Text>
+            <Text fill="#1f6390" layoutX="53.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2020">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Text>
+            <Text fill="#e40707" layoutX="90.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VAT : 12%">
+               <font>
+                  <Font size="7.0" />
+               </font>
+            </Text>
+            <Button layoutX="5.0" layoutY="203.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: red;" text="Place Order" textFill="WHITE" />
+            <CheckBox layoutX="10.0" layoutY="74.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="8.0" prefWidth="104.0" selected="true" text="Rush my order (+50.000 vnd)">
+               <font>
+                  <Font size="7.0" />
+               </font>
+            </CheckBox>
+            <Label layoutX="6.0" layoutY="110.0" text="Order total :">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Text fill="#d00d0d" layoutX="58.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="270.000 VND">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</Pane>
